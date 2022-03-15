@@ -14,3 +14,7 @@ Clone and make the project works.
 
 There's a file in the project call src/components/ToBeFixed.vue. This file is coded very bad, by people who don't really know how to their job.
 The component should have a simple TODO list, you can add a task to the list, you can remove it, you can hide it. Fix the component in order to make it works.
+
+## challenge 4
+
+Add some css to the ToBeFixed.vue component.
