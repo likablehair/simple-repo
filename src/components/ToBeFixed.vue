@@ -3,7 +3,7 @@
     <input type="text" v-model="addingTask"/>
     <button @click="addTask(addingTask.name)"></button>
     <ul>
-        <li v-for="task in taskCheSonoVisibili">
+        <li v-for="task in taskCheSonoVisibili" :key="task.id">
             {{task.name}}
         </li>
     </ul>
@@ -21,7 +21,7 @@ export default {
   },
   methods: {
     addTask(taskName) {
-        tasks.push({
+        this.tasks.push({
             name: taskName
         })
     },
